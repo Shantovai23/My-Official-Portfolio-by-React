@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/**************PROFESSIONAL**************/
+
+.professional{
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.professional::after{
+  content: " ";
+  display: block;
+  height: .2rem;
+  background: #fff;
+  width: 15rem;
+  margin: auto;
+  background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 1rem;
+}
+.professional-text{
+  text-align: justify;
+}
+.intro-name{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  
+}
+.first-name-color{
+  color: #870000; 
+}
+.designation{
+  text-decoration: underline;
+  background: #3a6186;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.centerized{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.centerized-text{
+  align-self: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+/*******************ACTIVITIES************/
+
+
+.activities{
+  font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.activities::after{
+  content: " ";
+  display: block;
+  height: .2rem;
+  background: #fff;
+  width: 7rem;
+  margin: auto;
+  background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 1rem;
 }
+
+.lead1{
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.tr-bg{
+  background-color: #DC3545;
+  color: #fff;
+}
+
+.back-img{
+  background: url(./img//hand-painted-watercolor-background-with-sky-clouds-shape.jpg) no-repeat;
+  min-height: 400px;
+  background-size: cover;
+ background-attachment: fixed;
+  
+}
+
+
+
+
+
+/*******************Qualifications*************/
+
+.activities2{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.activities2::after{
+  content: " ";
+  display: block;
+  height: .2rem;
+  background: #fff;
+  width: 9rem;
+  margin: auto;
+  background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
