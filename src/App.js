@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Objective from './pages/Objective'
 import Activities from './pages/Activities'
 import Qualification from './pages/Qualification'
+import Skills from './pages/Skills'
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/objective' component={Objective} />
           <Route path='/activities' component={Activities} />
           <Route path='/qualifications' component={Qualification} />
+          <Route path='/skills' component={Skills} />
         </Switch>
       </Router>
     </>

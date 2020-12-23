@@ -91,7 +91,7 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
 }
 
 .back-img{
-  background: url(./img//hand-painted-watercolor-background-with-sky-clouds-shape.jpg) no-repeat;
+  background: url('./img/hand-painted-watercolor-background-with-sky-clouds-shape.jpg') no-repeat;
   min-height: 400px;
   background-size: cover;
  background-attachment: fixed;
@@ -121,6 +121,7 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
 
   margin-top: 1rem;
 }
+
 
 
 
