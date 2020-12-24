@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
-    height: 224,
+    height: 350,
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`,
@@ -69,30 +69,34 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         className={classes.tabs}
       >
-        <Tab label="Competiting Language" {...a11yProps(0)} style={{outline:'none'}}/>
+        <Tab label="Competiting Language" {...a11yProps(0)} style={{outline:'none',marginTop:'25px'}}/>
         <Tab label="Frontend" {...a11yProps(1)} style={{outline:'none'}} />
         <Tab label="Backend" {...a11yProps(2)} style={{outline:'none'}} />
         <Tab label="Database" {...a11yProps(3)} style={{outline:'none'}} />
+        <Tab label="Others" {...a11yProps(4)} style={{outline:'none'}} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <p >C</p>
-        <p>C++</p>
+        <p className='particularskills' >C</p>
+        <p className='particularskills'>C++</p>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <p >HTML</p>
-        <p>CSS</p>
-        <p>Bootstrap</p>
-        <p>Material CSS</p>
-        <p>JavaScript</p>
-        <p>React js</p>
-        <p>Material Ui</p>
+        <p className='particularskills'>HTML</p>
+        <p className='particularskills'>CSS</p>
+        <p className='particularskills'>Bootstrap</p>
+        <p className='particularskills'>Material CSS</p>
+        <p className='particularskills'>JavaScript</p>
+        <p className='particularskills'>React js</p>
+        <p className='particularskills'>Material Ui</p>
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <p>Node Js</p>
-      <p>Express Js</p>
+      <p className='particularskills'>Node Js</p>
+      <p className='particularskills'>Express Js</p>
       </TabPanel>
       <TabPanel value={value} index={3}>
-      <p>MongoDB</p>
+      <p className='particularskills'>MongoDB</p>
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+      <p className='particularskills'>Git</p>
       </TabPanel>
     
     </div>

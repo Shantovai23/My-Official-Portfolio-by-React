@@ -26,9 +26,9 @@ class Navbar extends Component {
     render() {
         return (<>
             <IconContext.Provider value={{ color: '#fff'}}>
-                <div className='navbar'>
-                    <Link to='#' className='menu-bars'>
-                        <FaIcons.FaBars onClick={this.showSidebar} />
+                <div className='navbar' style={{position:'fixed',top:'0',width:'100%',overflow:'hidden'}}>
+                    <Link to='#' className='menu-bars' >
+                        <FaIcons.FaBars onClick={this.showSidebar}  />
                     </Link>
                 </div>
                 <nav className={this.state.sidebar ? 'nav-menu active' : 'nav-menu'}>

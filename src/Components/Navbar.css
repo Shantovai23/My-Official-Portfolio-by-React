@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
 
-
-
-
-
-
 .navbar{
     background-color: #060b26;
     height: 65px;
     display: flex;
     justify-content: start;
-    align-items: center;
-    
+    align-items: center; 
+    box-shadow: 2px 2px 3px grey; 
+    background: rgba(6, 11, 38, 1) !important;
+    z-index: 999999999;
 }
 .menu-bars{
     margin-left: 1rem;

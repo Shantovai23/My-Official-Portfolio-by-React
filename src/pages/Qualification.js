@@ -5,11 +5,11 @@ import 'react-vertical-timeline-component/style.min.css';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 const Qualification=()=>{
     return(<>
-        <div style={{ backgroundColor: "azure" }} className='pt-4'>
-            <h2 className='activities2 text-center py-4' >Qualifications</h2>
+        <div style={{ backgroundColor: "azure" }} className='pt-5'>
+            <h2 className='activities2 text-center py-5' >Qualifications</h2>
             <section>
                 <div className='container'>
-                    <div className='row py-5'>
+                    <div className='row '>
                         <div className='col-sm-10 mx-auto'>
                            
                         <VerticalTimeline>
