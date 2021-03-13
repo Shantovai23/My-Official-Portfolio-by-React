@@ -4,6 +4,9 @@
   margin: 0;
 
 }
+body{
+  background-color: azure
+}
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -22,8 +25,8 @@
   width: 15rem;
   margin: auto;
   background: #BE93C5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   margin-top: 1rem;
 }
@@ -150,6 +153,29 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
   font-weight: 600;
   color: #000000;
   border-radius: 4px;
+}
+
+
+
+
+/******************PROJECTS*****************/
+
+.activities4{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.activities4::after{
+  content: " ";
+  display: block;
+  height: .2rem;
+  background: #fff;
+  width: 6rem;
+  margin: auto;
+  background: #BE93C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 1rem;
 }
 
 

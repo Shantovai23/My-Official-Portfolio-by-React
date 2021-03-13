@@ -12,7 +12,6 @@ const Objective = () => {
                             <h4 className='designation'>Fullstack Web Developer</h4>
                         </div>
                     </div>
-
                     <div className="col-sm mt-5">
                         <p className='lead professional-text'>Last few years I have spent most of my time learning Algorithm, Data Structure and doing competitive programming and I have spent most of my time learning Frontend development. Now I want to use my whole skill to do something real. That’s why I am seeking a Intern that will allow me to gain experience and measure my performance. I believe I am a fast learner.</p>
                     </div>

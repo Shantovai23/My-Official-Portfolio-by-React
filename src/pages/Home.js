@@ -3,6 +3,7 @@ import Objective from './Objective'
 import Activities from './Activities'
 import Qualification from './Qualification'
 import Skills from './Skills'
+import Project from './Project'
 
 
 const Home=()=>{
@@ -11,6 +12,7 @@ const Home=()=>{
         <Activities/>
         <Qualification/>
         <Skills/>
+        <Project/>
     </>)
 }
 

@@ -25,7 +25,6 @@ const Activities = () => {
                 {/* <p className='lead1 pt-3' style={{textAlign:"center"}}> I solved problems in following site- URI
                     https://www.urionlinejudge.com.br/judge/en/profile/219667</p> */}
             </div>
-
                         </div>
                     </div>
                 </div>
