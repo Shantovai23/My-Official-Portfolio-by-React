@@ -15,6 +15,7 @@ const Project = () => {
                             img={val.img}
                             title={val.title}
                             description={val.description}
+                            linkValid={val.linkValid}
                         />
                         </div>)
                     })}

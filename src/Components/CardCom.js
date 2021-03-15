@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../img/shanto.jpg'
+
 
 
 
@@ -10,7 +10,7 @@ return(<>
      <div className="card-body">
       <h5 className="card-title">{props.title}</h5>
       <p className="card-text">{props.description}</p>
-      <button className="btn btn-outline-dark btn-block">Visit</button>
+      {props.linkValid ? <button className="btn btn-outline-dark btn-block" >Visit</button>:<button className="btn btn-outline-dark btn-block disabled" >Visit</button>}
     </div>
     </div>
 </>)
